@@ -86,7 +86,7 @@ namespace Exam.API.Controllers
             {
 
                 //throw new Exception(ex.Message, ex);
-                return BadRequest(ex.Message);
+                return StatusCode(500);
             }
         }
 
